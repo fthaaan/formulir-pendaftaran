@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Pendaftaran UNP-MILhamRamadhan-24343101</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+    <style>
+        body {
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image:url('unp.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+        
+        .container {
+            background: rgba(221, 221, 221, 0.8);
+            width: 50%;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow:  rgba(100, 100, 100, 0.1);
+        }
+        
+        .logo {
+            background: #bbb;
+            width: 80px;
+            height: 80px;
+            border-radius: 10px;
+            margin: 10px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        h1, h2 {
+            margin: 5px 0;
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        label {
+            align-self: flex-start;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        input, select {
+            width: 90%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        .buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        button {
+            background-color: #d9534f;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        
+        <div class="logo">
+            <img class="logo" src="Logo_unp.jpg" alt="logoUnp">
+        </div>
+        
+        <h1>UNP</h1>
+        <h2>Isi Formulir Pendaftaran</h2>
+    </div>
+        <div class="container">
+            <form>
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama">
+                
+                <label for="tempat_lahir">Tempat Lahir:</label>
+                <input type="text" id="tempat_lahir" name="tempat_lahir">
+                
+                <label for="tanggal_lahir">Tanggal Lahir:</label>
+                <input type="date" id="tanggal_lahir" name="tanggal_lahir">
+                
+                <label for="jenis_kelamin">Jenis Kelamin:</label>
+                <select id="jenis_kelamin" name="jenis_kelamin">
+                    <option value="laki-laki">Laki-laki</option>
+                    <option value="perempuan">Perempuan</option>
+                </select>
+                
+                <label for="agama">Agama:</label>
+                <input type="text" id="agama" name="agama">
+                
+                <label for="asal_sekolah">Asal Sekolah:</label>
+                <input type="text" id="asal_sekolah" name="asal_sekolah">
+                
+                <h3>Alamat</h3>
+                <label for="profinsi">Provinsi:</label>
+                <input type="text" id="profinsi" name="profinsi">
+                
+                <label for="kabupaten">Kabupaten/Kota:</label>
+                <input type="text" id="kabupaten" name="kabupaten">
+                
+                <label for="kecamatan">Kecamatan:</label>
+                <input type="text" id="kecamatan" name="kecamatan">
+                
+                <label for="kelurahan">Kelurahan:</label>
+                <input type="text" id="kelurahan" name="kelurahan">
+                
+                <label for="kode_pos">Kode Pos:</label>
+                <input type="text" id="kode_pos" name="kode_pos">
+                
+                <label for="no_hp">No HP:</label>
+                <input type="tel" id="no_hp" name="no_hp">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                
+                <h3>Data Orang Tua</h3>
+                <label for="nama_ayah">Nama Ayah:</label>
+                <input type="text" id="nama_ayah" name="nama_ayah">
+                
+                <label for="pekerjaan_ayah">Pekerjaan:</label>
+                <input type="text" id="pekerjaan_ayah" name="pekerjaan_ayah">
+                
+                <label for="nama_ibu">Nama Ibu:</label>
+                <input type="text" id="nama_ibu" name="nama_ibu">
+                
+                <div class="buttons">
+                    <button type="submit">Simpan</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </div>
+</body>
+</html>
